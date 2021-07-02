@@ -16,7 +16,8 @@ This project consist in three units, each one designed to acquire basic skills i
 
 # Web Pool
 
-This unit will cover most of the notions required to create a simple to medium website with HTML/CSS and Javascript
+This unit will cover most of the notions required to create a simple to medium website with HTML/CSS and Javascript 
+
 These notions includes :
 * Basic HTML page
 * Good usage of HTML tags
@@ -31,6 +32,7 @@ These notions includes :
 # Java Pool
 
 This unit will cover most of the notions of a programming language like Java
+
 These notions includes :
 * Functions
 * Conditional
@@ -48,4 +50,5 @@ These notions includes :
 # NSA Pool
 
 This unit will cover most of the notions of networks and systems administration
+
 These notions includes:
