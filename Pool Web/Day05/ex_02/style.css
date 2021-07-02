@@ -1,0 +1,55 @@
+body {
+	display: flex;
+}
+
+nav{
+	background-color: lightblue;
+	margin: 2vh 2vh 1vh 2vh;
+	height: 10vh;
+}
+
+.first-section {
+	background-color: lightgreen;
+}
+
+.article-one {
+	background-color: yellow;
+}
+
+.article-two {
+	background-color: purple;
+}
+
+.article-three {
+	background-color: #ff00ff;
+}
+
+footer {
+	background-color: red;
+	margin: 1vh 2vh 2vh 2vh;
+	height: 10vh;
+}
+
+@media all and (max-width: 768px) {
+	body {
+		flex-flow: column wrap;
+	}
+	
+	.first-section {
+		margin: 2vh;
+		height: 20vh;
+	}
+	
+	.article-one {
+		margin: 2vh;
+		height: 20vh;
+	}
+	
+	.article-two{
+		display: none;
+	}
+	
+	.article-three{
+		display: none;
+	}
+}

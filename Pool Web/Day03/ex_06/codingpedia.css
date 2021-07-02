@@ -1,0 +1,117 @@
+header {
+	border-style: solid;
+	border-width: 2px;
+	padding-right: 10px;
+	display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 20px;
+}
+h1 {
+	font-size: 30px;
+	font-style: bold;
+	margin-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+body {
+	height : 100%;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+main {
+	border-style: solid;
+	border-width: 2px;
+	width: 75%;
+	float: left;
+	margin-left: 20px;
+}
+
+aside {
+	border-style: solid;
+	border-width: 2px;
+	width: 20%;
+	float: right;
+	margin-right: 20px;
+	
+}
+
+footer {
+	border-style: solid;
+	border-width: 2px;
+	position: absolute;
+	bottom:0;
+	margin: 20px;
+	width: 97%;
+}
+
+.border {
+	border-style: solid;
+	border-width: 2px;
+}
+
+.padding {
+	padding: 10px;
+}
+
+.small-padding {
+	padding: 5px;
+}
+ul {
+  padding: 0;
+  margin: 10px;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+li:hover {
+	background-color: lightblue;
+}
+
+.label {
+	position: absolue;
+	padding-left: 10px;
+	width: 25%;
+}
+
+.input {
+	width: 75%;
+	float: right;
+}
+
+.input-small {
+	float: right;
+}
+.submit {
+	float: right;
+}
+
+.address {
+	text-align: center;
+}
+
+.margin {
+	margin: 5px;
+}
+
+table, th, td {
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+table {
+	width: 100%;
+}
+
+textarea {
+	position: relative;
+	left: 18%;
+}

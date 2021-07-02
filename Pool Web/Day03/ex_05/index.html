@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<link href="php.html">
+<link href="sql.html">
+<link href="codingpedia.css" rel="stylesheet">
+</head>
+<body>
+	<header><h1>Welcome to CodingPedia</h1>
+			<div class="border"><ul class="border">
+				<li><a href="index.html">Index</a></li>
+				<li><a href="php.html">PHP</a></li>
+				<li><a href="sql.html">SQL</a></li>
+			</ul></div></header>
+
+	<main class="border padding">
+		
+		<p class="border padding">CodingPedia is a collective encyclopedia project on the
+			Internet aiming to beuniversal and multi -lingual which functions as
+			a wiki.CodingPedia has for goal to offer freely reusable objective
+			and verifiable contentthat anyone can modify and improve.</p>
+		
+		<form class="border padding">
+			<div class="small-padding">
+				<label class="label" for="Name">Name:</label> 
+				<input class="input" type="text" id="name" name="name" required><br> 
+			</div>
+			<div class="small-padding">
+				<label class="label" for="First name">Firstname:</label> 
+				<input class="input" type="text" id="first name" name="first name" required><br>
+			</div>
+			<div class="small-padding">
+				<label class="label" for="First name">Email:</label> 
+				<input class="input" type="email" id="email" name="email" required><br>
+			</div> 
+			<div class="small-padding">
+				<label class="label" for="Age">Age:</label>
+				<input class="input" type="number" id="age" name="age" min="3" max="99"><br>
+			</div>
+			<div class="small-padding">
+				<label class="label" for="Phone">Phone:</label> 
+				<input class="input" type="tel" id="phone" name="phone" pattern="0[0-9]{9}" maxlength="10"><br> 
+			</div>
+			<div class="small-padding">
+				<label class="label" for="Sex">Sex:</label>
+				<div class="input">
+					<input type="radio" id="male" name="sex" value="male" checked>
+					<label for="male">male</label> 
+					<input type="radio" id="female" name="sex" value="female"> 
+					<label for="female">female</label><br>
+				</div>
+			</div>
+			<div class="small-padding">
+				<label class="label" for="Hair color">Hair color:</label> 
+				<div class="input" >
+					<input type="color" id="hair color" name="hair color">
+				</div><br> 
+			</div>
+			<div class="small-padding">
+				<label class="label" for="Date">Date</label> 
+				<div class="input">
+					<input type="date" id="date" name="date" value="2020-09-15" required>
+				</div><br> 
+			</div>
+			<div class="small-padding">
+				<label class="label" for="Technology">Technology:</label> 
+				<select class="input" id="technology" name="technology">
+					<option value="HTML">HTML</option>
+					<option value="PHP">PHP</option>
+					<option value="SQL">SQL</option>
+				</select><br>
+			</div>
+			<div class="small-padding">
+				<label class="label" for="Question">Question:</label>
+				<input class="input" type="textarea" rows="3" cols="50" id="question" name="question" required><br>
+			</div>
+			<div class="small-padding submit">
+				<input type="submit" value="Submit">
+			</div><br>
+		</form>
+	</main>
+
+	<aside>This is me !</aside>
+</body>
+
+<footer>
+		<address class="address">
+			JULIEN Gustave <br> 96 rue Danielle Casanova, 93300
+			Aubervilliers<br> +33 6 38 62 29 57<br>gustave1.julien@epitech.eu
+		</address>
+	</footer>
+</html>
