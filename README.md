@@ -30,7 +30,7 @@ These notions includes :
 
 # Java Pool
 
-This unit will cover most of the notions of a programming language like Java.
+This unit will cover most of the notions of a programming language like Java
 These notions includes :
 * Functions
 * Conditional
@@ -47,5 +47,5 @@ These notions includes :
 
 # NSA Pool
 
-This unit will cover most of the notions of networks and systems administration.
+This unit will cover most of the notions of networks and systems administration
 These notions includes:
